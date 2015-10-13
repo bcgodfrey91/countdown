@@ -17,7 +17,17 @@ countdown(10);
 
 1. Use global variable to keep track of time
 1. Keep track of time *without* defining any global variables
-1. BONUS: don't define any new variables
+1. Don't define any new variables
+1. Refactor `countdown` so that you can pass in a callback that fires every second.
+
+Here is an example of the fourth level:
+
+```js
+countdown(10, function (i) {
+  console.log('THIS IS MY CUSTOM CALLBACK!!!', i);
+});
+```
+
 
 ## Documentation
 
